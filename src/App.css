@@ -1,5 +1,14 @@
 .App {
   text-align: center;
+  display: inline-block;
+}
+
+.square{
+  margin-bottom: 5px;
+  margin-right: 5px;
+  width: 15vmin;
+  height:15vmin;
+  display: inline-flex;
 }
 
 .App-logo {
@@ -12,6 +21,8 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+
+
 
 .App-header {
   background-color: #282c34;
